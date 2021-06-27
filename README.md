@@ -37,7 +37,7 @@
     * 현재 해당 (`paymentinfo.db`)에는 (`paymentinfo`)와 (`cancle_paymentinfo`)테이블이 생성되어 있다.
     * 해당 DB 말고 새로 DB를 생성할 경우 DB 생성 후 해당 DB 경로를 (`db_connect.py`)의 (`DATABASE_NAME`)로 설정한다. 
 * 실행방법
-    * 현재 View에 해당하는 Html이 존재하지 않기 때문에 Postman[download](https://www.postman.com/downloads/)으로 API 테스트 진행
+    * 현재 View에 해당하는 Html이 존재하지 않기 때문에 Postman [download](https://www.postman.com/downloads/)으로 API 테스트 진행
     * 결제 API는 http://localhost:8080/pay Post방식으로 실행, body는 Json형식으로
         ~~~json
         {ex
@@ -62,7 +62,7 @@
         로 보낸다. 정상적으로 작동 시 결제취소정보와 결제취소관리번호가 return된다.
 
     * 결제 및 결제취소 정보 조회 API는 http://localhost:8080/payinfo?id={결제정보관리번호} Get방식으로 실행한다.
-    ex(http://localhost:8080/payinfo?id=VOLSVBDSCHNNIGNWLIFE)
+    **ex** : (http://localhost:8080/payinfo?id=VOLSVBDSCHNNIGNWLIFE)
 
 
 
