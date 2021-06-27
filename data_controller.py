@@ -379,13 +379,13 @@ def paymentInfoSelect(uniqueId,paygubun):
     # print(paymentInfo_jsondata)
     return paymentInfo_jsondata
 
-##결제정보 조회 함수 return json
+##결제정보 insert
 def insertpaymentinfo(result,uniqueId):
     payOk = dbc.insert_paymentInfo(result,uniqueId)
     if payOk == True:
         return True 
     
-##결제정보 조회 함수 return json
+##결제취소정보 insert
 def insertcanclepaymentinfo(result,cancleuniqueId,uniqueId):
     cancleOk = dbc.insert_canclepaymentInfo(result,cancleuniqueId,uniqueId)
     if cancleOk == True:
