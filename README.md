@@ -38,7 +38,7 @@
     * 해당 DB 말고 새로 DB를 생성할 경우 DB 생성 후 해당 DB 경로를 `db_connect.py`의 `DATABASE_NAME`로 설정한다. 
 * 실행방법
     * 현재 View에 해당하는 Html이 존재하지 않기 때문에 Postman [download](https://www.postman.com/downloads/)으로 API 테스트 진행
-    * Python3.6 
+    * app.py를 실행하여 API를 작동시킨다.
     * 결제 API는 http://localhost:8080/pay Post방식으로 실행, body는 Json형식으로
         ~~~json
         {ex
